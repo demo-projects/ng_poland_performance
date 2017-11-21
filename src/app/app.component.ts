@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
     this.users = [];
     this.notes = [];
 
-    // setInterval(() => this.time = new Date(), 1000);
+    setInterval(() => this.time = new Date(), 1000);
   }
 
   ngOnInit(): void {
