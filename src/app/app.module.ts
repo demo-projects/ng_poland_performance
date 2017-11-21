@@ -8,6 +8,7 @@ import { NotesComponent } from './notes.component';
 import {HttpClientModule} from '@angular/common/http';
 import {ApiService} from './api.service';
 import {FormsModule} from '@angular/forms';
+import { GetCodePipe } from './get-code.pipe';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import {FormsModule} from '@angular/forms';
     AppComponent,
     UsersComponent,
     NotesComponent,
+    GetCodePipe,
   ],
   imports: [
     BrowserModule,
